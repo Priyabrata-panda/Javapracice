@@ -1,11 +1,11 @@
 
-class Base2 {
+class Base3 {
     void display() {
         System.out.println("Derived");
     }
 }
 
-class Derived extends Base2 {
+class Derived extends Base3 {
     void display() {
         System.out.println("Base");
     }
@@ -19,7 +19,7 @@ class Raka extends Derived {
 
 public class Base{
     public static void main(String[] args) {
-        Base2 base = new Derived();
+        Base3 base = new Derived();
         base.display();
     }
 }
