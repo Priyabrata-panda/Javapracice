@@ -1,18 +1,19 @@
+package src;
 
 class Base3 {
     void display() {
-        System.out.println("Derived");
+        System.out.println("src.Derived");
     }
 }
 
 class Derived extends Base3 {
     void display() {
-        System.out.println("Base");
+        System.out.println("src.Base");
     }
 }
 class Raka extends Derived {
     void display() {
-        System.out.println("Raka");
+        System.out.println("src.Raka");
     }
 }
 
